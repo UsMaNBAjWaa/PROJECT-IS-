@@ -1,0 +1,16 @@
+# Compiled lab binaries and generated payload
+/stack
+/exploit
+/badfile
+*.o
+*.exe
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local data and secrets
+*.db
+*.db-journal
+.secret_key
